@@ -16,4 +16,10 @@ The Message Processor is a series of simple scripts that retrieves, modifies and
 * Clone the repository
 * Copy `config.ini.dist` to `config.ini` and add local database credentials for Message Consumer.
 
-This component attempts to read environmental variables - once these are set in a production environment, manual configuration is not required.
+This component attempts to read environmental variables - once these are set in a production environment, manual configuration is not required. This component requires PHP version >= `5.6`.
+
+To serve locally, run PHP local server in the project root directory, on a port of your choice; e.g:
+
+```
+php -S localhost:9898
+```
